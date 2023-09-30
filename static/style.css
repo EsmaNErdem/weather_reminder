@@ -1,0 +1,16 @@
+/* weather.css */
+
+/* Set the background image */
+body {
+    /* image url:https://www.freepik.com/premium-photo/blue-background-with-clouds-umbrellas-person-holding-umbrella_44985606.htm */
+    background-image: url('/static/clouds.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.card {
+    margin-top: 100px;
+}

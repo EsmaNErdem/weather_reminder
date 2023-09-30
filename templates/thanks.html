@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6 text-center">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="card-title">Thank You!</h3>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Thank you for registering for weather reminders.</p>
+                    <p class="card-text">You are now signed up to receive weather updates.</p>
+                    <p class="card-text">Username: {{ username }}</p>
+                </div>
+                <div class="card-footer">
+                    <a href="/" class="btn btn-primary">Return to Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
