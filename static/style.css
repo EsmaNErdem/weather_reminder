@@ -2,7 +2,7 @@
 
 /* Set the background image */
 body {
-    /* image url:https://www.freepik.com/premium-photo/blue-background-with-clouds-umbrellas-person-holding-umbrella_44985606.htm */
+    /* image url:https://www.vecteezy.com/vector-art/21698894-cute-blue-sky-background-with-paper-cut-clouds-3d-sun-and-rain-drops-garland Credit: Olga Zuevskaya */
     background-image: url('/static/clouds.jpg');
     background-size: cover;
     background-repeat: no-repeat;

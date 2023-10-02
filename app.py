@@ -5,7 +5,7 @@ from flask import Flask, flash, redirect, render_template, url_for
 from sqlalchemy.exc import IntegrityError
 from forms import UserForm
 from models import db, connect_db, User
-
+from current import currentWeather
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///weather'
@@ -62,5 +62,9 @@ def say_thanks(user_id):
     """Thank user for registering for weather reminder"""
 
     user = User.query.get_or_404(user_id)
-    
+    try:
+        currentWeather(user)
+    except Exception as e:
+        flash("An unexpected error occurred, please try again later", 'danger')
+        
     return render_template("thanks.html", username = user.username)
