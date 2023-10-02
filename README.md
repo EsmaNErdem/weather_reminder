@@ -126,8 +126,6 @@ https://www.youtube.com/watch?v=4n2fC97MNac&t=334s
 - Starting your virtual enviroment within task scheduler:
 https://stackoverflow.com/questions/34622514/run-a-python-script-in-virtual-environment-from-windows-task-scheduler
 
-### Further Study
-
 ## Further Study
 
 This Flask Weather Reminder App is an educational project designed for learning and practicing various Python libraries and concepts. While the app is functional and demonstrates key features, there are several areas for further study and enhancement:

@@ -20,7 +20,11 @@ Flask==3.0.0
 Flask-DebugToolbar==0.13.1
 Flask-SQLAlchemy==3.1.1
 Flask-WTF==1.1.2
+future==0.18.3
+geocoder==1.38.1
+geographiclib==2.0
 greenlet==2.0.2
+gunicorn==21.2.0
 httplib2==0.20.2
 idna==3.4
 importlib-metadata==4.6.4
@@ -38,6 +42,7 @@ matplotlib-inline==0.1.6
 more-itertools==8.10.0
 netifaces==0.11.0
 oauthlib==3.2.0
+packaging==23.2
 parso==0.8.3
 pexpect==4.8.0
 pickleshare==0.7.5
@@ -54,7 +59,9 @@ PyJWT==2.3.0
 PyOpenGL==3.1.5
 pyparsing==2.4.7
 python-apt==2.3.0+ubuntu2.1
+python-decouple==3.8
 PyYAML==5.4.1
+ratelim==0.1.6
 requests==2.31.0
 schedule==1.2.0
 SecretStorage==3.3.1
