@@ -4,7 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 from models import connect_db, User
 import geocoder
-from decouple import config
+from decouple import Config, Csv
+config = Config(Csv())
 from flask import Flask
 import logging  # Import the logging module
 
