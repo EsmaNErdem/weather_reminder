@@ -56,7 +56,6 @@ PyGObject==3.42.1
 PyJWT==2.3.0
 PyOpenGL==3.1.5
 pyparsing==2.4.7
-python-apt==2.3.0+ubuntu2.1
 python-decouple==3.8
 PyYAML==5.4.1
 ratelim==0.1.6
