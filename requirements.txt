@@ -7,12 +7,10 @@ certifi==2023.7.22
 cffi==1.15.0
 charset-normalizer==3.3.0
 click==8.1.7
-command-not-found==0.3
 cryptography==3.4.8
 dbus-python==1.2.18
 decorator==5.1.1
 distro==1.7.0
-distro-info===1.1build1
 dnspython==2.4.2
 email-validator==2.0.0.post2
 executing==1.2.0
@@ -58,7 +56,6 @@ PyGObject==3.42.1
 PyJWT==2.3.0
 PyOpenGL==3.1.5
 pyparsing==2.4.7
-python-apt==2.3.0+ubuntu2.1
 python-decouple==3.8
 PyYAML==6.0.1
 ratelim==0.1.6
