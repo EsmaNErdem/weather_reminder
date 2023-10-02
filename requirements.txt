@@ -1,6 +1,5 @@
 asttokens==2.2.1
 backcall==0.2.0
-beautifulsoup4==4.12.2
 blinker==1.6.2
 bs4==0.0.1
 certifi==2023.7.22
@@ -57,9 +56,8 @@ pycairo==1.25.0
 pycodestyle==2.5.0
 pycparser==2.21
 Pygments==2.14.0
-PyGObject==3.42.1
+# PyGObject==3.42.1
 PyJWT==2.3.0
-PyOpenGL==3.1.5
 pyparsing==2.4.7
 # python-apt==2.3.0+ubuntu2.1
 python-decouple==3.8
