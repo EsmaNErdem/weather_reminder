@@ -29,7 +29,6 @@ logger = logging.getLogger(__name__)
 def fetch_user_locations():
     # Fetch all users from the database
     users = User.query.all()
-    print(set(map(lambda u: u.username, users)))
     # Use a lambda function with map to extract unique locations
     locations = set(map(lambda u: u.location, users))
     return locations
@@ -71,7 +70,6 @@ def weatherReminder():
                 users = User.query.filter(User.location == location_town).all()
                 # getting their email addresses
                 user_emails = set(map(lambda u: u.email, users))
-                print(user_emails)
                 # initializing an SMTP (Simple Mail Transfer Protocol) object for sending emails via Gmail's SMTP server on port 587.
                 smtp_object = smtplib.SMTP('smtp.gmail.com', 587)
 
@@ -98,7 +96,6 @@ def weatherReminder():
                 users = User.query.filter(User.location == location_town).all()
                 # getting their email addresses
                 user_emails = set(map(lambda u: u.email, users))
-                print(user_emails)
                 # initializing an SMTP (Simple Mail Transfer Protocol) object for sending emails via Gmail's SMTP server on port 587.
                 smtp_object = smtplib.SMTP('smtp.gmail.com', 587)
 

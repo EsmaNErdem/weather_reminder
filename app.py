@@ -49,7 +49,6 @@ def signup():
         except Exception as e:
             db.session.rollback()  # Rollback the transaction in case of an error
             flash("An unexpected error occurred, please try again later", 'danger')
-        print(user)
         return redirect(url_for('say_thanks', user_id=user.id)) #after successful registration
 
 
